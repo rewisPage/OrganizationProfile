@@ -23,7 +23,7 @@ The primary objective of this laboratory exercise is to demonstrate the use of:
 - Regular Expressions (Regex)
 - Exception Handling using Try-Catch-Finally
 
-Based on the requirements specified in 03_Laboratory_Exercise_1.pdf and 03_Laboratory_Exercise_1_-_Method.txt. 【1-17417e】【2-c1b37a】
+Based on the requirements specified in 03_Laboratory_Exercise_1.pdf and 03_Laboratory_Exercise_1_-_Method.txt.
 
 ---
 
