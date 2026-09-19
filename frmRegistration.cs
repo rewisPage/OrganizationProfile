@@ -56,9 +56,9 @@ namespace OrganizationProfile
                 string.IsNullOrWhiteSpace(middleInitial))
                 throw new ArgumentNullException();
 
-            if (!Regex.IsMatch(lastName, @"^[a-zA-Z]+$") ||
-                !Regex.IsMatch(firstName, @"^[a-zA-Z]+$") ||
-                !Regex.IsMatch(middleInitial, @"^[a-zA-Z]+$"))
+            if (!Regex.IsMatch(lastName, @"^[a-zA-Z ]+$") ||
+                !Regex.IsMatch(firstName, @"^[a-zA-Z ]+$") ||
+                !Regex.IsMatch(middleInitial, @"^[a-zA-Z ]+$"))
                 throw new FormatException();
 
             _FullName = lastName + ", " + firstName + ", " + middleInitial;
